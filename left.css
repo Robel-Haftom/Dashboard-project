@@ -1,0 +1,112 @@
+.menu {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 167, 67);
+  gap: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.dashboard p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.dashboard-img {
+  height: 30px;
+  width: 30px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.history {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.communities {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.setting {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.privacy {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
