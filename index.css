@@ -1,0 +1,444 @@
+/* the general properties */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  margin: 10px 0px 10px 5px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgb(156, 142, 142);
+}
+
+/* the menu properties */
+.menu {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 167, 67);
+  gap: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.dashboard p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.dashboard-img {
+  height: 30px;
+  width: 30px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.history {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.communities {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.setting {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.privacy {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+/* the main dashboard properties */
+.main-dashboadr {
+  background-color: rgb(219, 218, 216);
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  width: 100%vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-1 {
+  padding: 5px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-weight: 700;
+}
+
+.header-1 input {
+  flex: 1;
+  margin-right: 10px;
+  height: 22px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 2px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+#search-icon,
+#alarm-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.main-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 60px;
+}
+
+.header-2 {
+  padding: 5px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-weight: 700;
+}
+
+.sec-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.header-2 {
+  padding: 5px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-weight: 800;
+}
+
+.sec-3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.sec-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+#profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.hi {
+  font-weight: 500;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.btn {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 167, 67);
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.paragraphs {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.paragraphs p {
+  margin: 0px;
+}
+
+.dashboard-header {
+  padding: 20px 30px;
+  background-color: white;
+  height: fit-content;
+}
+
+.dashboard-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.each-project {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border-left: 15px solid greenyellow;
+}
+
+.project-detail {
+  font-weight: 300;
+  padding: 5px;
+}
+
+.project-icons {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-right: 20px;
+  padding-top: 20px;
+  gap: 15px;
+}
+
+.each-project p {
+  margin-bottom: 3px;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.right-div-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-5 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+.sec-5 p {
+  margin: 3px;
+}
+
+.anouncement-detail {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.anouncement-title {
+  font-weight: 400;
+}
+
+.sec-6 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.sec-6 p {
+  margin: 3px;
+}
+
+.trending {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.account-name {
+  font-weight: 500;
+}
+
+.real-name {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(90, 89, 89);
+}
+
+/* Hovering effects */
+
+#home:hover,
+#profile:hover,
+#message:hover,
+#history:hover,
+#task:hover,
+#communities:hover,
+#setting:hover,
+#support:hover,
+#privacy:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(rgb(149, 0, 248), #0ef589);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(255, 167, 67);
+  background-color: white;
+  border: 1px solid gray;
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+
+.main-profile-pic:hover {
+  cursor: pointer;
+  height: 40.5px;
+  width: 40.5px;
+}
+
+.project-icons-each:hover {
+  cursor: pointer;
+  transform: scale(1.3, 1.3);
+}
+
+.accoutn-name-top:hover {
+  cursor: pointer;
+  transform: scale(1.015, 1.015);
+}
+
+#search-icon:hover,
+#notification-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
