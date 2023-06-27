@@ -25,6 +25,13 @@ hr {
   border: none;
   border-top: 1px solid rgb(156, 142, 142);
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+a::after{
+  color: black;
+}
 
 /* the menu properties */
 .menu {
@@ -386,13 +393,16 @@ hr {
 }
 
 .account-name {
+  font-size: 13px;
   font-weight: 500;
 }
 
 .real-name {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   color: rgb(90, 89, 89);
+  word-spacing: 5px;
+  letter-spacing: 1px;
 }
 
 /* Hovering effects */
@@ -423,8 +433,8 @@ hr {
 
 .main-profile-pic:hover {
   cursor: pointer;
-  height: 40.5px;
-  width: 40.5px;
+  filter: brightness(75%);
+  
 }
 
 .project-icons-each:hover {
